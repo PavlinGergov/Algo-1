@@ -1,4 +1,4 @@
-# Complexities
+# Stack
 
 Write down the asymptotic complexities of the following functions:
 
@@ -15,7 +15,7 @@ is_prime(number) {
 }
 ```
 
-Complexity: ...
+Complexity: O(n)
 
 ## Checking if a string is palindrome
 
@@ -37,7 +37,7 @@ is_palindrome(string) {
 }
 ```
 
-Complexity: ...
+Complexity: O(n)
 
 ## Summing elements of a matrix
 
@@ -49,7 +49,7 @@ for (i = 0; i < n; i++) {
 }
 ```
 
-Complexity: ...
+Complexity: O(n^2)
 
 ## Counting 1
 
@@ -61,16 +61,16 @@ for (i = 0; i < n; i++) {
 }
 ```
 
-Complexity: ...
+Complexity: O(n^2)
 
 ## Counting 2
 
 ```
 for (i = 0; i < n; i++) {
-  for (j = 1; j < n; j*=2) {
+  for (j = 0; j < n; j*=2) {
     count++
   }
 }
 ```
 
-Complexity: ...
+Complexity: O(n^2)
