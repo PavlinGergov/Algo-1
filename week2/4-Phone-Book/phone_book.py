@@ -5,3 +5,6 @@ class PhoneBook:
   # numbers - [int]
   def lookup_names(phone_book, numbers):
       pass
+
+# изцяло binary search 
+# единия масив се сортира по ключове и след това се търси с binary search в него
